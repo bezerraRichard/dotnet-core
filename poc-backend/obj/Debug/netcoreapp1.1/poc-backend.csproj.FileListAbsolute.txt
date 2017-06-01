@@ -1,0 +1,8 @@
+C:\Users\richa\Documents\poc-anuglar\poc-backend\bin\Debug\netcoreapp1.1\poc-backend.deps.json
+C:\Users\richa\Documents\poc-anuglar\poc-backend\bin\Debug\netcoreapp1.1\poc-backend.runtimeconfig.json
+C:\Users\richa\Documents\poc-anuglar\poc-backend\bin\Debug\netcoreapp1.1\poc-backend.runtimeconfig.dev.json
+C:\Users\richa\Documents\poc-anuglar\poc-backend\bin\Debug\netcoreapp1.1\poc-backend.dll
+C:\Users\richa\Documents\poc-anuglar\poc-backend\bin\Debug\netcoreapp1.1\poc-backend.pdb
+C:\Users\richa\Documents\poc-anuglar\poc-backend\obj\Debug\netcoreapp1.1\poc-backend.AssemblyInfo.cs
+C:\Users\richa\Documents\poc-anuglar\poc-backend\obj\Debug\netcoreapp1.1\poc-backend.dll
+C:\Users\richa\Documents\poc-anuglar\poc-backend\obj\Debug\netcoreapp1.1\poc-backend.pdb

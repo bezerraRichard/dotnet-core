@@ -31,6 +31,13 @@ namespace poc_backend
         {
             services.AddDbContext<Contexto>(opt => opt.UseInMemoryDatabase());
             // Add framework services.
+            services.AddCors(options =>
+            options.AddPolicy("AllowSpecificOrigin", 
+            builder => builder
+                    .WithOrigins("*")
+                    .AllowAnyMethod()
+                    .AllowAnyHeader()));
+
             services.AddMvc();
         }
 
@@ -40,6 +47,8 @@ namespace poc_backend
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
 
+           app.UseCors("AllowSpecificOrigin");
+           
             app.UseMvc();
         }
     }
